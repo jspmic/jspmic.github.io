@@ -19,7 +19,9 @@ Partons d'un exemple concret:
 print("Bonjour le monde")
 ```
 
-> [!WARNING] Supposons qu'on utilise l'implémentation par défaut de python(Cpython) car les autres implémentations fonctionnent d'une manière différente.
+> [!WARNING]
+> Supposons qu'on utilise l'implémentation par défaut de python(Cpython) car les autres implémentations fonctionnent d'une manière différente.
+
 Normalement, ce programme affiche notre message "Bonjour le monde" sur l'écran.
 Supposons encore que nous sommes sur un système Linux et décortiquons ce petit programme qu'on vient d'écrire.
 
@@ -49,7 +51,8 @@ Ces appels système peuvent être utilisés depuis l’assembleur ou le C.
 Apprendre toutes les variantes d’assembleur pour chaque processeur serait très fastidieux,
 d’où le choix du C ou de Rust pour la plupart des projets bas-niveau : ils offrent une interface plus uniforme tout en restant proches du matériel.
 
-> [!INFO] Un caractère est représenté sur 1 octet (1 octet contient 8 bits).
+> [!INFO]
+> Un caractère est représenté sur 1 octet (1 octet contient 8 bits).
 
 Alors, comme vous pouvez l'observer, on a 3 arguments pour `write`:
 - fd: File Descriptor. Pour l'écran, fd est toujours égal à 1.
